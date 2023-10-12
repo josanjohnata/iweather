@@ -1,7 +1,7 @@
 import { fireEvent, render, screen } from "@testing-library/react-native";
 
 import { SelectList } from "@components/SelectList";
-import { dataMock, onChangeMock, onPressMock } from "./__mock__/SelectList.mock";
+import { dataMock, onChangeMock, onPressMock } from "../../../__mocks__/SelectList.mock";
 
 describe('Component: SelectList', () => {
   it('should be return city details selected correctly', () => {
